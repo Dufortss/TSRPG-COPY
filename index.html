@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7577214992958110"
+     crossorigin="anonymous"></script>
+     <meta name="google-adsense-account" content="ca-pub-7577214992958110">
+  <title>Index</title>
+   <Style>
+    .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('css/51176444e7992898f5be7f90c447c6f9f6139d1b_hq.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: -10;
+            
+       }
+
+       
+
+
+
+   </Style>
+  <script>
+    // Verifica se o usuário está logado ao acessar a página principal
+    window.onload = function() {
+      const token = localStorage.getItem('token');
+      if (!token) {
+        // Se o usuário não tiver um token, redireciona para a página de login
+        window.location.href = 'Tell-sky-beta-2-main/login.html';
+      } else {
+        // Se o usuário já estiver logado, redireciona para o dashboard
+        window.location.href = 'Tell-sky-beta-2-main/dashboard.html';
+      }
+    };
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
